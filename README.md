@@ -108,7 +108,7 @@ After an extensive trial and error process, I decided to go for a mix of these t
         1.	Synonym replacement, to obtain sentences with same meaning but different words.
         2.	Contextual word embedding, to insert new words to the sentences based on similar context. 
 
-## Results
+## 5.Results
 ![image](https://user-images.githubusercontent.com/87027062/231792930-21be72d3-1e31-450f-81d8-d4ef31545618.png)
 ![image](https://user-images.githubusercontent.com/87027062/231793112-52c3e082-0b08-4ae6-9125-9e50bb6f4393.png)
 
