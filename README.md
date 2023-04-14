@@ -1,7 +1,9 @@
 # Fake-Jobs-Prediction
-This project analyzes a highly imbalanced dataset of 10K jobs descriptions to create a prediction model that can identify fraudulent jobs postings. Three main ML models are used for this project: Logistic Regression, Random Forest and Neural Network.
+This project analyzes a highly imbalanced dataset of 18K jobs descriptions to create a prediction model that can identify fraudulent jobs postings. Three main ML models are used for this project: Logistic Regression, Random Forest and Neural Network.
 <br>
-As most of the features consist of text, this project explores cleaning textual data, stemming, BoW, TF-IDF, text augmentation as well as under-sampling techniques and class weightage adjustment to handle the significant class imbalance. 
+As most of the features consist of text, this project explores cleaning textual data, stemming, BoW, TF-IDF, text augmentation using synonym replacement and contextual word insertion as well as under-sampling techniques and class weightage adjustment to handle the significant class imbalance. 
+<br>
+The best F1-Score of 0.86 for the minority class (fraudulent jobs) was achieved by using a Deep Neural Network model on the preprocessed textual data.
 <br>
 ## 1. Dataset 
 The original dataset for this project consists of circa 18K job descriptions. The dataset has 18 features:
